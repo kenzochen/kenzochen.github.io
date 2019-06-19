@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[SMS 开发思路]]></title>
     <url>%2F2018%2F09%2F24%2FSMS-%E5%BC%80%E5%8F%91%E6%80%9D%E8%B7%AF%2F</url>
-    <content type="text"><![CDATA[什么是PMS？SMS（Self Management System），是集时间管理（TMS）、数据库（DBS）、财务管理（FMS）和项目管理（PMS）一体的自我管理系统。 我想让它提升什么？个人日程太混乱、财务管理太混乱以及拖延症是耗费我宝贵时间的真凶。 模块 TMS TODO 定期活动达成 DBS FMS 操作“大学支出报表.excel” 月度预算 奖励立项及达成 PMS 项目一览表 项目考勤 如何实现？]]></content>
+    <content type="text"><![CDATA[什么是PMS？SMS（Self Management System），是集时间管理（TMS）、数据库（DBS）、财务管理（FMS）和项目管理（PMS）一体的自我管理系统。 我想让它提升什么？ 个人日程太混乱、财务管理太混乱以及拖延症是耗费我宝贵时间的真凶。 模块 TMS TODO 定期活动达成 DBS FMS 操作“大学支出报表.excel” 月度预算 奖励立项及达成 PMS 项目一览表 项目考勤 如何实现？]]></content>
       <categories>
         <category>写作</category>
       </categories>
