@@ -1773,7 +1773,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7ffff;
+  background: #1605c3;
 }
 .feed-link,
 .chat {
@@ -2964,4 +2964,7 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.header {
+  background: url("/images/avatar.jpg") none repeat scroll !important;
 }
