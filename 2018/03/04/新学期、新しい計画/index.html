@@ -55,6 +55,10 @@
 
 
 
+  
+  
+  <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css">
+
 
 
 
@@ -92,7 +96,7 @@
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
     back2top: true,
     back2top_sidebar: false,
-    fancybox: false,
+    fancybox: true,
     fastclick: false,
     lazyload: false,
     tabs: true,
@@ -241,6 +245,8 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
@@ -257,6 +263,8 @@
       
     
 
+    
+      
     
 
     <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
@@ -275,8 +283,10 @@
     
 
     
+      
+    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">4</span></a>
 
   </li>
         
@@ -292,8 +302,10 @@
     
 
     
+      
+    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">2</span></a>
 
   </li>
         
@@ -309,8 +321,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">5</span></a>
 
   </li>
 
@@ -509,7 +523,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-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
+U2FsdGVkX19QHhxZX8ZaKwWrwMMulBqOCJz+WLys/DZ0CR0MTxPAxUSWck5EOg3kYwl1anKuXx0aHOVy6lBtWOHs3c8qR8+/tMFLYnLRiSi7RVb2DFr5qqMGiEuDmv1XPLeBoalPgU5LqLdkFEd1Duu5si0pqfT0ebUVcNXWDQRSsraegUIeyuimFjt+bCaMz3S8pqqpHh/OG5M8ni7wQCMXDH48FQJrqQFB7U1VmFcr6KQ+0BCVD/EiAkdAgdyO07f0fKxKY7sbMHwxnvPZOYxWOx2Fi9zngz7R/swTz35kASaJni+EHSZ7MTR3YXn4EUH0+D2FixJlT1BbBaCU7UoHsjPmQrVxAf/YRHWKzuy+T3YIo+rlQVY+5FWURotL1mmj1xSLtNjo7ANDUSVUXf9U4ZzMugvK39rUVXvuuYOvrBb24G41i/PihMUitDlQ+RKs1Benl1huWrIjLCFVuAWaJXGZs9ViypzfdulBrpeVsIALjKDqHslqq6VW10buVaeh5XQREVJm71IW2gueomXZDvmhCQV9FUE1tsrMuQ1zGH8hLezLUEqVKRganfktZbwXyYs13FfGV75U7t8YwO5kQJQAjZNEbH3hTj+hizF+ecNZ/ckihwSOqSgnET0IMph/OQqvExtW1UVNz/B3z8a1zmVGEcLy0LPqh+z8KRw+5aK92uzdQNE8vyhnY4RsvojP12k2CXNPPN9aJkTdtGU4Y9zYBqIgLzSfBKtXQHcV5odfV9VHvVblnWfFm/JhyYRH2hEhvqTfdmPOPn0zZ3Wvn5U1THT+nqySMmuk+Q2B0ZL+XnOIAL8nbA23U7XiWwpE4V0oLqCuoDcsNXymqsHnQbgbBPhzbRd4BlbE7Sn/N6loiVSI/jFmMUTOSa7MMuHbkTH3QGP6evb5+r3+pF0o52IsMY6Xd22eh6wVBaxmMRBH6twxb7sot/SnvUl+5Pq84RfngqUT95eQnchCBIGVe/Ixozs8jBHBIy9dULIjf3WNhNbEWvQLSnnopOBhlKlkaCV3kErxqWYn0RtJ5kI1yVhZSKKRE4niWgaZIUkGgYISsBXtpI5aCw1PdfFmuAVRtMqj3x1EUu6UQAS8mViAVkMklOEnugMjzWTjvo8/hXYKXSyN4t4u9hPcf+ZrBWZpD+oEgSq7yfP9Ixd9KZPPUpOXxzG2H2Quh3pFTqofRcsoDndtbKgcR7sx2SB2cO5nssQRx877NhIxVKFc+DVMNlclSqwFSsKl5D01FrY=
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
       
@@ -714,7 +728,7 @@ U2FsdGVkX1+ZpjArL++zQfwGtmOLMoTohHEHSJwYPIIzcbMGoC7hvaqd7oAQSWNytjD7Gfvucj5AZl+m
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">陈士盈</span>
 
@@ -724,7 +738,7 @@ U2FsdGVkX1+ZpjArL++zQfwGtmOLMoTohHEHSJwYPIIzcbMGoC7hvaqd7oAQSWNytjD7Gfvucj5AZl+m
 </div>
 
 
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+  <div class="powered-by">由 <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> 强力驱动 v3.9.0</div>
 
 
 
@@ -732,7 +746,7 @@ U2FsdGVkX1+ZpjArL++zQfwGtmOLMoTohHEHSJwYPIIzcbMGoC7hvaqd7oAQSWNytjD7Gfvucj5AZl+m
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.1.2</div>
+  <div class="theme-info">主题 – <span class="exturl theme-link" data-url="aHR0cHM6Ly90aGVtZS1uZXh0Lm9yZw==">NexT.Pisces</span> v7.1.2</div>
 
 
 
@@ -811,15 +825,14 @@ U2FsdGVkX1+ZpjArL++zQfwGtmOLMoTohHEHSJwYPIIzcbMGoC7hvaqd7oAQSWNytjD7Gfvucj5AZl+m
 
 
 
+  
+
+
+
 
 
   
-    
-    
   
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-
-
 
 
 
@@ -839,6 +852,15 @@ U2FsdGVkX1+ZpjArL++zQfwGtmOLMoTohHEHSJwYPIIzcbMGoC7hvaqd7oAQSWNytjD7Gfvucj5AZl+m
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/fancybox/source/jquery.fancybox.pack.js"></script>
+
+  
+  <script src="/lib/three/three.min.js"></script>
+
+  
+  <script src="/lib/three/three-waves.min.js"></script>
 
 
   
@@ -875,6 +897,8 @@ U2FsdGVkX1+ZpjArL++zQfwGtmOLMoTohHEHSJwYPIIzcbMGoC7hvaqd7oAQSWNytjD7Gfvucj5AZl+m
   
 
   
+  <script src="/js/exturl.js?v=7.1.2"></script>
+
 
   
 
